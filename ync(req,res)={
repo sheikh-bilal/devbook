@@ -1,0 +1,41 @@
+[33mcommit 3ce4a03aced68b403082f164a9d49fa1c0f082b9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: sheikh-bilal <reply2bilal.ahmed@gmail.com>
+Date:   Tue Apr 20 11:35:33 2021 -0700
+
+    Create Profile model and set route for current-user profile
+
+[33mcommit ca5790386b8074ecdd73140059c221793420a877[m
+Author: sheikh-bilal <reply2bilal.ahmed@gmail.com>
+Date:   Tue Apr 20 05:42:44 2021 -0700
+
+    Login user & generate jWT token
+
+[33mcommit 2f1a13b59f18ab313d9f2a7f40af29d21251c1e2[m
+Author: sheikh-bilal <reply2bilal.ahmed@gmail.com>
+Date:   Tue Apr 20 04:49:44 2021 -0700
+
+    Create middleware and authenticate JWT token
+
+[33mcommit 8d4b726d4b138ef66230909a51e86d34c114fdf6[m
+Author: sheikh-bilal <reply2bilal.ahmed@gmail.com>
+Date:   Tue Apr 20 03:35:07 2021 -0700
+
+    Create & save User
+
+[33mcommit 5d21cf69bd33de1e48df3c1986a451102023a669[m
+Author: sheikh-bilal <reply2bilal.ahmed@gmail.com>
+Date:   Mon Apr 19 05:05:45 2021 -0700
+
+    Connect mongoDB & routes
+
+[33mcommit 9159f11c1392e9cd94776cdfae38a60767ab874b[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: sheikh-bilal <reply2bilal.ahmed@gmail.com>
+Date:   Mon Apr 19 03:33:41 2021 -0700
+
+    updated package.json
+
+[33mcommit c8b079c6e93aeffce08bcefeb9b28380e7b2246e[m
+Author: sheikh-bilal <reply2bilal.ahmed@gmail.com>
+Date:   Mon Apr 19 03:28:57 2021 -0700
+
+    Initialize project
