@@ -212,7 +212,6 @@ img {
 .alert-danger {
   background: var(--danger-color);
   color: #fff;
-  border-radius: 10px;
 }
 
 .btn-success,
