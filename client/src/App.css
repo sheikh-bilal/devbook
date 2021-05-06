@@ -66,6 +66,14 @@ img {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -322,7 +330,10 @@ button {
 .table th,
 .table td {
   padding: 1rem;
-  text-align: center;
+}
+
+tbody tr {
+  border: 1px solid whitesmoke;
 }
 
 .table th {
@@ -617,6 +628,9 @@ button {
 .mc {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+}
+.custom-border {
+  border: 1px solid whitesmoke;
 }
 /* Mobile Styles */
 @media (max-width: 700px) {
