@@ -162,7 +162,7 @@ export const deleteAccount = () => async dispatch => {
       dispatch({ type: CLEAR_PROFILE });
       dispatch({ type: DELETE_ACCOUNT });
 
-      dispatch(setAlert('Your account has been deleted successfully!!', 'success'));
+      dispatch(setAlert('Your account has been deleted successfully!!'));
     } catch (error) {
       dispatch({
         type: PROFILE_ERROR,
