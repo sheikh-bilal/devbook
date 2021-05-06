@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 import Moment from 'react-moment';
 
 
-const Experience = ({ experience }) => {
-  const experiences = experience.map(exp => (
+const Education = ({ education }) => {
+  const educations = education.map(exp => (
     <tr key={exp._id}>
-      <td>{exp.company}</td>
-      <td className='hide-sm'>{exp.title}</td>
+      <td>{exp.school}</td>
+      <td className='hide-sm'>{exp.degree}</td>
       <td>
         <Moment format='YYYY/MM/DD'>{exp.from}</Moment> -{' '}
         { exp.to === null ? (
@@ -25,24 +25,24 @@ const Experience = ({ experience }) => {
 
   return (
     <Fragment>
-      <h2 className="mc">Experience Credentials</h2>
+      <h2 className="mc">Education Credentials</h2>
       <table className="table">
         <thead>
           <tr>
-            <th>Company</th>
-            <th className="hide-sm">Title</th>
+            <th>Institute</th>
+            <th className="hide-sm">Degree</th>
             <th className="hide-sm">Years</th>
             <th className="hide-sm">Action</th>
           </tr>
         </thead>
-        <tbody>{experiences}</tbody>
+        <tbody>{educations}</tbody>
       </table>
     </Fragment>
   );
 };
 
-Experience.propTypes = {
-  experience: PropTypes.array.isRequired
+Education.propTypes = {
+  education: PropTypes.array.isRequired
 };
 
-export default Experience;
+export default Education;
