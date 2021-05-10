@@ -573,6 +573,10 @@ tbody tr {
   box-shadow: none;
   animation: animate-positive 2s;
 }
+.progress-bar {
+  width: 100%;
+  background: var(--primary-color);
+}
 .progress .progress-value {
   display: block;
   font-size: 18px;
